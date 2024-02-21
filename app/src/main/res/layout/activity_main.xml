@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <GridLayout
@@ -12,6 +12,7 @@
         android:layout_width="410dp"
         android:layout_height="412dp"
         android:alignmentMode="alignMargins"
+        android:background="@color/white"
         android:columnCount="3"
         android:columnOrderPreserved="false"
         android:rowCount="3"
@@ -28,9 +29,8 @@
             android:layout_rowWeight="1"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
             android:onClick="setFicha"
-            android:textColor="#050505"
+            android:textColorLink="@android:color/transparent"
             android:textSize="60sp" />
 
         <Button
@@ -39,9 +39,9 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:textColorLink="#FFFFFF"
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/b3"
@@ -49,9 +49,9 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:textColorLink="#FFFFFF"
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/b4"
@@ -59,9 +59,9 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:textColorLink="#FFFFFF"
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/b5"
@@ -69,9 +69,9 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:textColorLink="#FFFFFF"
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/b6"
@@ -79,9 +79,9 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
+            android:textColorLink="#FFFFFF"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/b7"
@@ -89,29 +89,29 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
+            android:textColorLink="#FFFFFF"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/b8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
+            android:textColorLink="#FFFFFF"
             android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:textSize="60sp"/>
 
         <Button
             android:id="@+id/b9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            android:backgroundTint="#D8D2D2"
+            android:textColorLink="#FFFFFF"
             android:onClick="setFicha"
-            android:textSize="60sp" />
+            android:layout_columnWeight="1"
+            android:textSize="60sp"/>
 
     </GridLayout>
 

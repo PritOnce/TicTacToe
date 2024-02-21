@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setFicha(View v) {
-        if (partidaEnCurso && radioButtonEasy.isChecked() && esTurnoJugador) { // Solo permitir acción del jugador cuando es su turno
+        if (partidaEnCurso && radioButtonEasy.isChecked() && esTurnoJugador) {
             if (state == 0) {
                 int numBoton = Arrays.asList(botones).indexOf(v.getId());
                 if (tablero[numBoton] == 0) {
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
                 textVictoria.setVisibility(View.VISIBLE);
                 textVictoria.setText("YOU LOSE");
                 textVictoria.setTextColor(Color.RED);
-                fichaVictoria = R.drawable.x_victoria;
+                fichaVictoria = R.drawable.x_victoria2;
             }
             for(int i = 0; i < posicionGanadora.length; i++){
                 Button button = findViewById(botones[posicionGanadora[i]]);
